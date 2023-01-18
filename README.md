@@ -11,4 +11,4 @@ Tips <br>
 Practice focusing and paying attention to the sequence before starting the game.<br>
 Take your time and don't rush through the sequence.<br>
 Have fun and good luck!<br>
-Note: This is a simple code with a basic functionality of Simon Game, feel free to customize it as you like.<br>
+Note: This is a simple code with a basic functionality of Simon Game.<br>
