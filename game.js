@@ -6,12 +6,12 @@ let userClickedPattern = [];
 let started = false;
 let level = 0;
 
-$(document).on("tap", function () {
-	if (!started) {
-		$("#level-title").text("Level " + level);
-		nextSequence();
-		started = true;
-	}
+$("h1").on("tap",function () {
+    if (!started) {
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        started = true;
+    }
 });
 
 $(document).keypress(function () {
