@@ -6,12 +6,12 @@ let userClickedPattern = [];
 let started = false;
 let level = 0;
 
-$("h1").on("tap",function () {
-    if (!started) {
-        $("#level-title").text("Level " + level);
-        nextSequence();
-        started = true;
-    }
+$("h1").tap(function () {
+	if (!started) {
+		$("#level-title").text("Level " + level);
+		nextSequence();
+		started = true;
+	}
 });
 
 $(document).keypress(function () {
@@ -21,7 +21,6 @@ $(document).keypress(function () {
 		started = true;
 	}
 });
-
 
 $(".btn").click(function () {
 	let userChosenColour = $(this).attr("id");
