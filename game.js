@@ -6,7 +6,7 @@ let userClickedPattern = [];
 let started = false;
 let level = 0;
 
-$(document).on("tap", function () {
+$(document).on(function () {
 	if (!started) {
 		$("#level-title").text("Level " + level);
 		nextSequence();
